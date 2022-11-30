@@ -101,21 +101,12 @@ const header = () => {
             </div>
           </div>
         </div>
-        {/* <div class="p-2">Flex item</div> */}
           <div className="join-sec w-100 h-100">
-            {/* <div> */}
             <button className='btn-bg btn-download w-100'><span className="position-relative">Download VR Client &nbsp;<span className="fs-4"><FaWindows /></span></span></button>
-{/*             
-            </div>
-            <div> */}
             <button className='btn-bg btn-join w-100' ><span className="position-relative">Join SOMNIUM <span className="">WEB</span></span></button>
-            {/* </div> */}
         </div>
       </div>
     </>
-    /* 
-      
-         */
   );
 };
 
