@@ -136,6 +136,7 @@ const Patners = () => {
           <Image src="/steam.png" width={70} height={60} alt=""></Image>
         </div>
         <h3>Ready to Play</h3>
+        <h3>Ready to Play</h3>
       </div>
     </div>
   );
