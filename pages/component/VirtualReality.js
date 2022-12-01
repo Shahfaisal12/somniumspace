@@ -18,7 +18,7 @@ const VirtualReality = () => {
           </h5>
           <div
             className="position-absolute w-100 d-flex justify-content-end flex-column"
-            style={{ top: "223px", right: "-86px", zIndex: "21" }}
+            style={{ top: "180px", right: "-180px", zIndex: "21" }}
           >
             <Image src="/PC_client.png" width={265} height={200} alt=""></Image>
             <div className="text-center">
@@ -45,7 +45,7 @@ const VirtualReality = () => {
           </h5>
           <div
             className="position-absolute w-100 d-flex flex-column"
-            style={{ top: "286px", left: "-65px" }}
+            style={{ top: "185px", left: "-65px" }}
           >
             <Image src="/oculusNew.png" width={265} height={200} alt=""></Image>
             <div className="text-center">
@@ -55,15 +55,16 @@ const VirtualReality = () => {
           </div>
         </div>
       </div>
+
       <div className="footer-sec d-flex justify-content-center">
-        <h3>Available Now</h3>
+        <h1>Available Now</h1>
         <div className="d-flex justify-content-between align-items-center mx-5 w-25">
           <Image src="/VR-window.png" width={60} height={50} alt=""></Image>
           <Image src="/VR-text-img.png" width={70} height={60} alt=""></Image>
           <Image src="/vivi.png" width={70} height={60} alt=""></Image>
           <Image src="/steam.png" width={70} height={60} alt=""></Image>
         </div>
-        <h3>Ready to Play</h3>
+        <h1>Ready to Play</h1>
       </div>
     </div>
   );
