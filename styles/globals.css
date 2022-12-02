@@ -509,3 +509,25 @@ body {
   border-radius: 5px;
   background-color: #ff7285;
 }
+
+.text-access{
+  text-shadow: 0 0 4px #0fffff;
+    color: #fff;
+    font-family: Sony Sketch EF;
+    font-size: 27px;
+    font-weight: 400;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 50px;
+    margin-left: 15px;
+    border: none;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(90deg,#13c477,transparent) 1 0;
+}
+
+.text-download{
+  text-shadow: 0 0 3px rgb(0 0 0 / 70%);
+    font-size: 15px;
+    color: #fff!important;
+}
