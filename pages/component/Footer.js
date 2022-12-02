@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3 my-3">
-            <Image src="/logo.png" width={140} height={60} alt=""></Image>
+            <Image src="/logo.png" width={140} height={60} alt="" />
             <p className="mb-0 mt-3">
               2022 by Somnium Space LTD. Somnium Space and Somnium Space Logo
               are trademarks of Somnium Space LTD. All other trademarks are the

@@ -85,28 +85,28 @@ const KeepInTouch = () => {
         </div>
       </div>
       <div className="social-icons-dev position-absolute">
-        <Image src="/socialimage1.png" width={30} height={30} alt=""></Image>{" "}
+        <Image src="/socialimage1.png" width={30} height={30} alt=""/>
         <div class="vr my-auto"></div>
         <Image
           src="/socialimage2.png"
           width={30}
           height={30}
           alt=""
-        ></Image>{" "}
+        />
         <div class="vr my-auto"></div>
         <Image
           src="/socialimage3.png"
           width={30}
           height={30}
           alt=""
-        ></Image>{" "}
+        />
         <div class="vr my-auto"></div>
         <Image
           src="/socialimage4.png"
           width={30}
           height={30}
           alt=""
-        ></Image>{" "}
+        />
         <div class="vr my-auto"></div>
         <Image src="/socialimage5.png" width={30} height={30} alt=""></Image>
       </div>

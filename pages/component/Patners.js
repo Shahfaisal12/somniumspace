@@ -8,11 +8,11 @@ const Patners = () => {
           <h3 className="mb-0 fs-3">SOMNIUM SPACE</h3>
           <h2 className="display-5 fw-bold mb-0">PARTNERS</h2>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner1.png" width={100} height={40} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner1.png" width={100} height={40} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Somnium Space & Admix</h1>
             <p>
               We work together to bring advertising revenues for our players.
@@ -21,11 +21,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner8.png" width={120} height={100} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner8.png" width={120} height={100} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>High Fidelity & JanusVR</h1>
             <p>
               We believe that the future of the VR space is in connectivity and
@@ -43,11 +43,11 @@ const Patners = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner7.png" width={120} height={40} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner7.png" width={120} height={40} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Sony</h1>
             <p>
               In 2019 we partnered with Sony and their amazing 3D model creation
@@ -58,11 +58,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner6.png" width={150} height={100} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner6.png" width={150} height={100} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Polygon & OpenSea</h1>
             <p>
               Our blockchain partners Polygon and OpenSea offer the best
@@ -73,11 +73,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner5.png" width={150} height={40} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner5.png" width={150} height={40} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Blockchain Gaming Alliance</h1>
             <p>
               We became a member of Blockchain Game Alliance to contribute
@@ -85,11 +85,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner4.png" width={120} height={50} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner4.png" width={120} height={50} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Somnium Space & Gemini</h1>
             <p>
               We are excited to be partners with one of the leading exchanges in
@@ -99,11 +99,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner2.png" width={120} height={50} alt=""></Image>
+        <div className="row py-4">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner2.png" width={120} height={50} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Somnium Space & Holaplex</h1>
             <p>
               We have partnered with Holaplex to release our first official NFT
@@ -112,11 +112,11 @@ const Patners = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-end align-items-center py-4">
-          <div className="img px-5">
-            <Image src="/partner3.png" width={120} height={60} alt=""></Image>
+        <div className="row pt-4 pb-5">
+          <div className="col-md-2 img d-flex align-items-center">
+            <Image src="/partner3.png" width={120} height={60} alt="" />
           </div>
-          <div className="">
+          <div className="col-md-8">
             <h1>Somnium Space & FTX</h1>
             <p>
               We have partnered with one of the leading and largest exchanges in
@@ -130,10 +130,10 @@ const Patners = () => {
       <div className="footer-sec d-flex justify-content-center">
         <h3>Available Now</h3>
         <div className="d-flex justify-content-between align-items-center mx-5 w-25">
-          <Image src="/VR-window.png" width={60} height={50} alt=""></Image>
-          <Image src="/VR-text-img.png" width={70} height={60} alt=""></Image>
-          <Image src="/vivi.png" width={70} height={60} alt=""></Image>
-          <Image src="/steam.png" width={70} height={60} alt=""></Image>
+          <Image src="/VR-window.png" width={60} height={50} alt="" />
+          <Image src="/VR-text-img.png" width={70} height={60} alt="" />
+          <Image src="/vivi.png" width={70} height={60} alt="" />
+          <Image src="/steam.png" width={70} height={60} alt="" />
         </div>
         <h3>Ready to Play</h3>
         <h3>Ready to Play</h3>

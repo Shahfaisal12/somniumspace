@@ -14,7 +14,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -24,7 +24,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -34,7 +34,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -44,7 +44,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -54,7 +54,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -64,7 +64,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -74,7 +74,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -84,7 +84,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
          <div className="vr"></div>
          <a href="/">
@@ -94,7 +94,7 @@ const Brand = () => {
              height={70}
              className="img-fluid"
              alt=""
-           ></Image>
+           />
          </a>
        </div>
      </div>

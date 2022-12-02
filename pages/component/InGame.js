@@ -21,7 +21,7 @@ const InGame = () => {
                   width={70}
                   height={60}
                   alt=""
-                ></Image>
+                 />
               </div>
             </div>
             <div className="d-flex align-items-center py-4">
@@ -33,7 +33,7 @@ const InGame = () => {
                 </p>
               </div>
               <div className="img px-5">
-                <Image src="/ingame3.png" width={70} height={60} alt=""></Image>
+                <Image src="/ingame3.png" width={70} height={60} alt="" />
               </div>
             </div>
             <div className="d-flex align-items-center py-4">
@@ -45,7 +45,7 @@ const InGame = () => {
                 </p>
               </div>
               <div className="img px-5">
-                <Image src="/ingame4.png" width={60} height={70} alt=""></Image>
+                <Image src="/ingame4.png" width={60} height={70} alt="" />
               </div>
             </div>
             <div className="d-flex align-items-center py-4">
@@ -59,14 +59,14 @@ const InGame = () => {
                 </p>
               </div>
               <div className="img px-5">
-                <Image src="/ingame5.png" width={60} height={50} alt=""></Image>
+                <Image src="/ingame5.png" width={60} height={50} alt="" />
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="d-flex align-items-center py-4">
               <div className="img px-5">
-                <Image src="/ingame2.png" width={70} height={70} alt=""></Image>
+                <Image src="/ingame2.png" width={70} height={70} alt="" />
               </div>
               <div className="">
                 <h1>Persistent Social VR World</h1>
@@ -77,7 +77,7 @@ const InGame = () => {
             </div>
             <div className="d-flex align-items-center py-4">
               <div className="img px-5">
-                <Image src="/ingame6.png" width={70} height={60} alt=""></Image>
+                <Image src="/ingame6.png" width={70} height={60} alt="" />
               </div>
               <div className="">
                 <h1>Virtual Land Ownership</h1>
@@ -88,7 +88,7 @@ const InGame = () => {
             </div>
             <div className="d-flex align-items-center py-4">
               <div className="img px-5">
-                <Image src="/ingame7.png" width={60} height={70} alt=""></Image>
+                <Image src="/ingame7.png" width={60} height={70} alt="" />
               </div>
               <div className="">
                 <h1>Scriptable World</h1>
@@ -100,7 +100,7 @@ const InGame = () => {
             </div>
             <div className="d-flex align-items-center py-4">
               <div className="img px-5">
-                <Image src="/ingame8.png" width={60} height={70} alt=""></Image>
+                <Image src="/ingame8.png" width={60} height={70} alt="" />
               </div>
               <div className="">
                 <h1>Monetize Your Space</h1>
@@ -117,10 +117,10 @@ const InGame = () => {
       <div className="footer-sec d-flex justify-content-center">
         <h3>Available Now</h3>
         <div className="d-flex justify-content-between align-items-center mx-5 w-25">
-          <Image src="/VR-window.png" width={60} height={50} alt=""></Image>
-          <Image src="/VR-text-img.png" width={70} height={60} alt=""></Image>
-          <Image src="/vivi.png" width={70} height={60} alt=""></Image>
-          <Image src="/steam.png" width={70} height={60} alt=""></Image>
+          <Image src="/VR-window.png" width={60} height={50} alt="" />
+          <Image src="/VR-text-img.png" width={70} height={60} alt="" />
+          <Image src="/vivi.png" width={70} height={60} alt="" />
+          <Image src="/steam.png" width={70} height={60} alt="" />
         </div>
         <h3>Ready to Play</h3>
       </div>

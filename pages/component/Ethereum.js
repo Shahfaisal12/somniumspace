@@ -10,46 +10,46 @@ const Ethereum = () => {
             fill
             className="img-fluid"
             alt=""
-          ></Image>
+          />
           <div className="shoes-sec">
             <Image
               src="/shoes-shadow.png"
               fill
               className="shoes-shadow img-fluid"
               alt=""
-            ></Image>
+            />
             <Image
               src="/shoes.png"
               fill
               className="shoes img-fluid"
               alt=""
-            ></Image>
+            />
           </div>
           <Image
             src="/profile.png"
             fill
             className="profile img-fluid"
             alt=""
-          ></Image>
+          />
           <Image
             src="/char-holo.png"
             fill
             className="char-holo img-fluid"
             alt=""
-          ></Image>
+          />
           <div className="loca-pro">
             <Image
               src="/map-pro.png"
               fill
               className="map-pro img-fluid"
               alt=""
-            ></Image>
+            />
             <Image
               src="/location-pro.png"
               fill
               className="location-pro img-fluid"
               alt=""
-            ></Image>
+            />
           </div>
           <div className="watch-sec">
             <Image
@@ -57,13 +57,13 @@ const Ethereum = () => {
               fill
               className="watchshawdow img-fluid"
               alt=""
-            ></Image>
+            />
             <Image
               src="/watch.png"
               fill
               className="watch img-fluid"
               alt=""
-            ></Image>
+            />
           </div>
           <div className="position-relative w-100" style={{ height: "400px" }}>
             <Image
@@ -71,7 +71,7 @@ const Ethereum = () => {
               fill
               className="img-fluid"
               alt=""
-            ></Image>
+            />
             <div
               className="content text-center w-75 m-auto position-absolute"
               style={{ left: "0", right: "0" }}
@@ -92,7 +92,7 @@ const Ethereum = () => {
                     width={210}
                     height={70}
                     alt=""
-                  ></Image>
+                  />
                 </div>
                 <div className="ms-auto ">
                   <Image
@@ -101,7 +101,7 @@ const Ethereum = () => {
                     width={210}
                     height={70}
                     alt=""
-                  ></Image>
+                  />
                 </div>
               </div>
               <div className="d-flex justify-content-center">
@@ -112,7 +112,7 @@ const Ethereum = () => {
                     width={210}
                     height={70}
                     alt=""
-                  ></Image>
+                  />
                 </div>
                 <div className="">
                   <Image
@@ -121,7 +121,7 @@ const Ethereum = () => {
                     width={210}
                     height={70}
                     alt=""
-                  ></Image>
+                  />
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Ethereum = () => {
               fill
               className="img-fluid"
               alt=""
-            ></Image>
+            />
           </div>
           <div
             className="map-section position-absolute bg-19343D"
@@ -154,21 +154,21 @@ const Ethereum = () => {
               style={{ width: "100%", height: "100%" }}
               className="img-fluid"
               alt=""
-            ></Image>
+            />
             <Image
               src="/map.png"
               width={200}
               height={400}
               className="map img-fluid position-absolute"
               alt=""
-            ></Image>
+            />
             <Image
               src="/markers.svg"
               width={200}
               height={400}
               className="marks img-fluid position-absolute"
               alt=""
-            ></Image>
+            />
           </div>
         </div>
       </div>
