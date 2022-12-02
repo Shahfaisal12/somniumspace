@@ -278,7 +278,7 @@ body {
   align-items: center;
   position: relative;
   box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
-  background-image: url(../public/backgroundVR.png);
+  background-image: url(/backgroundVR.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -328,7 +328,7 @@ body {
   min-height: 1050px;
   z-index: 998;
   box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
-  background-image: url(../public/backgroundVR.png);
+  background-image: url(/backgroundVR.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -406,7 +406,7 @@ body {
   position: relative;
   align-items: center;
   box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
-  background-image: url(../public/somniumBg.png);
+  background-image: url(/somniumBg.png);
   background-repeat: no-repeat;
 }
 
@@ -421,7 +421,7 @@ body {
   z-index: 996;
   align-items: center;
   box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
-  background-image: url(../public/getintouch.png);
+  background-image: url(/getintouch.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
