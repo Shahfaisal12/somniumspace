@@ -229,7 +229,7 @@ body {
   background-position: top;
   background-size: cover;
   box-shadow: 0 9px 10px rgb(0 0 0 / 45%);
-  background-image: url(../public/backgroundVR.png);
+  background-image: url(/backgroundVR.png);
   background-repeat: no-repeat;
 
 
