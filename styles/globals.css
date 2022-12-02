@@ -531,3 +531,28 @@ body {
     font-size: 15px;
     color: #fff!important;
 }
+
+
+.banner-section .carousel-control-prev, .carousel-control-next{
+  display: none;
+}
+
+.banner-section .unity span{
+  cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: -3px 3px 12px rgb(0 0 0 / 77%);
+}
+
+
+
+/* //////////////////////////////////////// slider-video  ////////////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+  .slider-video{
+    width: 320px;
+  }
+}

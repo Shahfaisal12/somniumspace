@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const VirtualReality = () => {
   return (
     <div className="virtural-reality-section">
@@ -18,9 +16,14 @@ const VirtualReality = () => {
           </h5>
           <div
             className="position-absolute w-100 d-flex justify-content-end flex-column"
-            style={{ top: "180px", right: "-180px", zIndex: "21" }}
+            style={{ top: "160px", right: "-160px", zIndex: "21" }}
           >
-            <Image src="/PC_client.png" width={265} height={200} alt=""></Image>
+            <img
+              src="/PC_client.png"
+              className="img-fluid"
+              style={{ maxWidth: "300px" }}
+              alt=""
+            ></img>
             <div className="text-center">
               <h5 className="mb-0">Oculus Quest</h5>
               <h5>Compatible</h5>
@@ -28,7 +31,12 @@ const VirtualReality = () => {
           </div>
         </div>
         <div className="img position-relative">
-          <Image src="/VRmode.png" width={600} height={400} alt=""></Image>
+          <img
+            src="/VRmode.png"
+            className=""
+            alt=""
+            style={{ width: "600px" }}
+          ></img>
           <div
             className="content position-absolute w-100 text-center"
             style={{ bottom: "-40px" }}
@@ -45,9 +53,9 @@ const VirtualReality = () => {
           </h5>
           <div
             className="position-absolute w-100 d-flex flex-column"
-            style={{ top: "185px", left: "-65px" }}
+            style={{ top: "170px", left: "-65px" }}
           >
-            <Image src="/oculusNew.png" width={265} height={200} alt=""></Image>
+            <img src="/oculusNew.png" className="img-fluid" alt=""></img>
             <div className="text-center">
               <h5 className="mb-0">Oculus Quest</h5>
               <h5>Compatible</h5>
@@ -59,10 +67,10 @@ const VirtualReality = () => {
       <div className="footer-sec d-flex justify-content-center">
         <h1>Available Now</h1>
         <div className="d-flex justify-content-between align-items-center mx-5 w-25">
-          <Image src="/VR-window.png" width={60} height={50} alt=""></Image>
-          <Image src="/VR-text-img.png" width={70} height={60} alt=""></Image>
-          <Image src="/vivi.png" width={70} height={60} alt=""></Image>
-          <Image src="/steam.png" width={70} height={60} alt=""></Image>
+          <img src="/VR-window.png" className="img-fluid" alt=""></img>
+          <img src="/VR-text-img.png" className="img-fluid" alt=""></img>
+          <img src="/vivi.png" className="img-fluid" alt=""></img>
+          <img src="/steam.png" className="img-fluid" alt=""></img>
         </div>
         <h1>Ready to Play</h1>
       </div>

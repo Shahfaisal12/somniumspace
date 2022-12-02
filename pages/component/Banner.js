@@ -12,12 +12,8 @@ const Banner = () => {
             autoPlay
             muted
             loading="lazy"
-            style={{ width: "500", height: "auto" }}
+          style={{width:'100%', height:'auto'}}
           ></video>
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <video
@@ -27,11 +23,8 @@ const Banner = () => {
             autoPlay
             muted
             loading="lazy"
+            style={{width:'100%', height:'auto'}}
           ></video>
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <video
@@ -41,6 +34,7 @@ const Banner = () => {
             autoPlay
             muted
             loading="lazy"
+            style={{width:'100%', height:'auto'}}
           ></video>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,6 +55,7 @@ const Banner = () => {
             autoPlay
             muted
             loading="lazy"
+            style={{width:'100%', height:'auto'}}
           ></video>
         </Carousel.Item>
         <Carousel.Item>
@@ -71,16 +66,17 @@ const Banner = () => {
             autoPlay
             muted
             loading="lazy"
+            style={{width:'100%', height:'auto'}}
           ></video>
         </Carousel.Item>
         <div
           className="position-absolute"
-          style={{ top: "200px", right: "250px" }}
+          style={{ top: "200px", right: "350px" }}
         >
           <div className="d-flex justify-content-center align-items-center">
             <img src="/carosel1.png" alt="" />
             <div style={{ marginLeft: "15px" }}>
-              <img src="/carosel2.png" className="mb-3" alt="" />
+              <img src="/carosel2.png" className="mb-5" alt="" />
               <br />
               <img src="/carosel3.png" className="position-relative" alt="" />
               <span
@@ -140,6 +136,67 @@ const Banner = () => {
                 <img src="/carosel8.png" className="img-fluid" width={90} />
               </span>
             </div>
+          </div>
+        </div>
+        <div
+          className="unity d-flex flex-column position-absolute mt-3"
+          style={{ right: "30px" }}
+        >
+          <div className="position-relative mb3">
+            <img
+              src="/unity-icon1.png"
+              className="img-fluid"
+              alt=""
+              style={{ width: "200px" }}
+            />
+            <span
+              className="position-absolute"
+              style={{ bottom: "-30px", right: "30%" }}
+            >
+              UnitySDK
+            </span>
+          </div>
+          <div className="position-relative mb-5">
+            <img
+              src="/unity-icon2.png"
+              className="img-fluid"
+              alt=""
+              style={{ width: "200px" }}
+            />
+            <span
+              className="position-absolute"
+              style={{ bottom: "-30px", right: "30%" }}
+            >
+              UnitySDK
+            </span>
+          </div>
+          <div className="position-relative mb-5">
+            <img
+              src="/unity-icon3.png"
+              className="img-fluid"
+              alt=""
+              style={{ width: "200px" }}
+            />
+            <span
+              className="position-absolute"
+              style={{ bottom: "-30px", right: "30%" }}
+            >
+              UnitySDK
+            </span>
+          </div>
+          <div className="position-relative mb-5">
+            <img
+              src="/unity-icon4.png"
+              className="img-fluid"
+              alt=""
+              style={{ width: "200px" }}
+            />
+            <span
+              className="position-absolute"
+              style={{ bottom: "-30px", right: "30%" }}
+            >
+              UnitySDK
+            </span>
           </div>
         </div>
       </Carousel>
